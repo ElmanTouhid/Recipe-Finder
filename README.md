@@ -119,3 +119,8 @@ Software Development I (CSE-2340)
 ⭐ *If you like this project, give it a star!*
 
 </div>
+
+<p>Project live link</p>
+## 🔗 Live Demo
+
+[https://recipe-finder-zeta-dusky.vercel.app/](https://recipe-finder-zeta-dusky.vercel.app/)
