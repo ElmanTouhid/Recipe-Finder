@@ -1,10 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from 'react'  //checks your code for errors and warnings, helps you write better code
+import { createRoot } from 'react-dom/client'  //connects react to webpage
+import './index.css'   //connects css to webpage
+import App from './App.jsx'  //connects app.jsx to webpage
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(  //puts app on page, root is the id of the div in index.html
   <StrictMode>
-    <App />
+    <App />  
   </StrictMode>,
 )
