@@ -18,7 +18,7 @@ JSON.parse(localStorage.getItem("favorites")) || [] );
 // favorites memory
   useEffect(() => {     
     localStorage.setItem("favorites", JSON.stringify(favorites));
-  }, [favorites]);
+  }, [favorites]);    //changes after refresh stay there
 
   async function searchRecipes() {    //this part runs when we click search   // async = the job will wait for the internet
     if (search.trim() === "") return;     //search box empty then return
