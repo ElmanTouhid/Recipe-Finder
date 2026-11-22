@@ -12,7 +12,7 @@ A simple recipe search app built with **React + Vite**, powered by the free **Th
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![API](https://img.shields.io/badge/API-TheMealDB-E67E22?style=for-the-badge)
 
-<img src="screenshot.png" alt="Recipe Finder screenshot" width="750">
+<img src="SD-HW/Image/Screenshot 2026-11-23 012240.png" alt="Recipe Finder screenshot" width="750">
 
 </div>
 
