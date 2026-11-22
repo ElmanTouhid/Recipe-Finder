@@ -39,7 +39,7 @@ JSON.parse(localStorage.getItem("favorites")) || [] );
       setError("Something went wrong. Please try again.");     //only works when error is thrown 
       setRecipes([]);
     } finally {
-      setLoading(false);
+      setLoading(false);   //will always run after try and catch , loading false after asking the website
     }
   }
 
