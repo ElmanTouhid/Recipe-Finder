@@ -10,11 +10,13 @@ function App() {
   const [loading, setLoading] = useState(false);//memory box
   const [error, setError] = useState("");               //first word = what is stored
   const [searched, setSearched] = useState(false);  // set = how we can change it
+  
+ 
   const [favorites, setFavorites] = useState(       
 
 JSON.parse(localStorage.getItem("favorites")) || []
   );
-    // favorites memory
+                                 // favorites memory
   useEffect(() => {     
     localStorage.setItem("favorites", JSON.stringify(favorites));
   }, [favorites]);
