@@ -13,6 +13,9 @@ A simple recipe search app built with **React + Vite**, powered by the free **Th
 ![API](https://img.shields.io/badge/API-TheMealDB-E67E22?style=for-the-badge)
 
 <img src="Image/Screenshot 2026-11-23 012240.png" alt="Recipe Finder screenshot" width="750">
+                                    ## 🔗 Live Demo
+
+[https://recipe-finder-zeta-dusky.vercel.app/](https://recipe-finder-zeta-dusky.vercel.app/)
 
 </div>
 
@@ -120,7 +123,4 @@ Software Development I (CSE-2340)
 
 </div>
 
-<p>Project live link</p>
-## 🔗 Live Demo
 
-[https://recipe-finder-zeta-dusky.vercel.app/](https://recipe-finder-zeta-dusky.vercel.app/)
