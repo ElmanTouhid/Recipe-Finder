@@ -3,7 +3,7 @@ function SearchBar({ search, setSearch, onSearch }) {
     <div className="search-bar">  
       <input  // box which contains input and button
         type="text"
-        placeholder="Search a recipe, e.g. chicken"
+        placeholder="Search a recipe, e.g. chicken"  //hint
         value={search}   //always shows stored values
         onChange={(e) => setSearch(e.target.value)}  //saves new text in search
       />
