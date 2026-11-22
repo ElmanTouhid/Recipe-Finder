@@ -14,9 +14,8 @@ function App() {
  
   const [favorites, setFavorites] = useState(       
 
-JSON.parse(localStorage.getItem("favorites")) || []
-  );
-                                 // favorites memory
+JSON.parse(localStorage.getItem("favorites")) || [] );
+// favorites memory
   useEffect(() => {     
     localStorage.setItem("favorites", JSON.stringify(favorites));
   }, [favorites]);
