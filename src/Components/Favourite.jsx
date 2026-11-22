@@ -17,4 +17,4 @@ function Favorites({ favorites, onToggleFavorite }) {
   );
 }
 
-export default Favorites;
+export default Favorites;  //connecting the file with app.jsx
