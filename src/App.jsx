@@ -7,10 +7,10 @@ import "./App.css";
 function App() {
   const [search, setSearch] = useState("");
   const [recipes, setRecipes] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");              //memory box
-  const [searched, setSearched] = useState(false);   //first word = what is stored
-  const [favorites, setFavorites] = useState(       // set = how we can change it
+  const [loading, setLoading] = useState(false);//memory box
+  const [error, setError] = useState("");               //first word = what is stored
+  const [searched, setSearched] = useState(false);  // set = how we can change it
+  const [favorites, setFavorites] = useState(       
 
 JSON.parse(localStorage.getItem("favorites")) || []
   );
